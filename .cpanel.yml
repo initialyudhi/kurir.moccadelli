@@ -1,0 +1,7 @@
+deployment:
+ 
+ tasks:
+ 
+ - export DEPLOYPATH=/home/u1695511/public_html/kurir.moccadelli.com
+ 
+ - /usr/bin/rsync -Paz * $DEPLOYPATH --delete
